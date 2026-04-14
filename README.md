@@ -8,14 +8,6 @@ Cultivar is an AI-assisted agriculture decision platform that combines:
 
 The project includes a FastAPI backend and a redesigned Vite + React frontend.
 
-## What Is Improved
-
-- Removed hardcoded secret usage from tracked config and switched to placeholder-based env setup.
-- Hardened backend request handling with cleaner Pydantic v2 usage.
-- Rebuilt the frontend UX with a modern responsive interface and better form handling.
-- Added robust API error display and typed numeric payload normalization.
-- Consolidated project docs and startup flow in this README.
-
 ## Project Structure
 
 ```text
@@ -92,9 +84,6 @@ Interactive docs:
 
 - http://localhost:8000/docs
 
-## Security Note
-
-If your API key was previously exposed in git history, rotate it in Google AI Studio immediately and invalidate the leaked key.
 
 ## Tech Stack
 
